@@ -84,3 +84,46 @@ header {
   align-items: center;
   color: #f9faf8;
 }
+
+/* INFORMATION SECTION */
+.informations-container {
+  margin-top: 32px;
+}
+.informations-container h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+.informations {
+  max-width: 80%;
+  display: Flex;
+  gap: 48px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.information {
+  display: Flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.img {
+  border: 2px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img p {
+  text-align: center;
+}
+
+.img-subtext {
+    text-align: center;
+}
